@@ -1,4 +1,4 @@
 [core]
-    remote = myremote
-['remote "myremote"']
-    url = C:\Users\SANDES~1\AppData\Local\Temp
+    remote = myawsremote
+['remote "myawsremote"']
+    url = s3://sandesh-mini-project
