@@ -21,6 +21,6 @@ jobs:
 
       - name: run dvc piepliune
         env: 
-        DAGSHUB_PAT: ${{ secrets.DAGSHUB_PAT }}
+          DAGSHUB_PAT: ${{ secrets.DAGSHUB_PAT }}
         run: |
           dvc repro
